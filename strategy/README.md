@@ -8,9 +8,9 @@ Image get from:https://www.e4developer.com/2018/10/14/my-favourite-design-patter
 
 
 ## Goal of this example
-To show  the Strategy pattern in action we will follow an example of email service. In this example we have a interface called ISendEmailService.java and two concrete classe named by FakeEmailService.java and SendSMTPEmailService.java.The Main.java is our Context Classe that will receive the name (provider name) of e-mail service that should be used to send e-mail. Based on the provider name the strategy for e-mail service  will be mounted and executed
+To show  the Strategy pattern in action we will follow an example of email service. In this example we have an interface called ISendEmailService.java and two concrete classe named by FakeEmailService.java and SendSMTPEmailService.java.The Main.java is our Context Classe that will receive the name (provider name) of e-mail service that should be used to send e-mail. Based on the provider name the strategy for e-mail service  will be mounted and executed
 
-To improve  and filter the arguments that user provide was implemented a Argument Processor that has responsability to validated the arguments name and value for this example.
+To improve  and filter the arguments that user provide was implemented an Argument Processor that has responsability to validated the arguments name and value for this example.
 
 
 ## Requirements
